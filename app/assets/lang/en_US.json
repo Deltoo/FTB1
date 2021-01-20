@@ -1,48 +1,48 @@
 {
     "html": {
-        "avatarOverlay": "Edit"
+        "avatarOverlay": "Modifier"
     },
     "js": {
         "login": {
             "error": {
-                "invalidValue": "* Invalid Value",
-                "requiredValue": "* Required",
+                "invalidValue": "* Donnée invalide",
+                "requiredValue": "* Requis",
                 "userMigrated": {
                     "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "You've attempted to login with a migrated account. Try again using the account email as the username."
+                    "desc": "Vous avez tenté de vous connecter avec un compte migré. Veuillez utiliser l'adresse email au lieu du pseudonyme."
                 },
                 "invalidCredentials": {
                     "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "The email or password you've entered is incorrect. Please try again."
+                    "desc": "L'adresse email ou le mot de passe est incorrect. Veuillez réessayer."
                 },
                 "rateLimit": {
                     "title": "Error During Login:<br>Too Many Attempts",
-                    "desc": "There have been too many login attempts with this account recently. Please try again later."
+                    "desc": "Il y a eu trop de tentatives de connexions récemment. Veuillez réessayer plus tard."
                 },
                 "noInternet": {
                     "title": "Error During Login:<br>No Internet Connection",
-                    "desc": "You must be connected to the internet in order to login. Please connect and try again."
+                    "desc": "Vous devez être connecté à Internet afin de pouvoir vous connecter. Connectez-vous à Internet puis réessayez."
                 },
                 "authDown": {
                     "title": "Error During Login:<br>Authentication Server Offline",
-                    "desc": "Mojang's authentication server is currently offline or unreachable. Please wait a bit and try again. You can check the status of the server on <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
+                    "desc": "Le serveur d'authentification de Mojang est hors ligne. Vous pouvez y vérifier son statut sur le <a href=\"https://help.mojang.com/\">portail d'aide de Mojang</a>."
                 },
                 "notPaid": {
                     "title": "Error During Login:<br>Game Not Purchased",
-                    "desc": "The account you are trying to login with has not purchased a copy of Minecraft.<br>You may purchase a copy on <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                    "desc": "Le compte auquel vous essayez de vous connecter n'a pas acheté de copie du jeu.<br>Achetez une copie du jeu sur <a href=\"https://minecraft.net/\">Minecraft.net</a>"
                 },
                 "unknown": {
                     "title": "Error During Login:<br>Unknown Error"
                 }
             },
             "login": "LOGIN",
-            "loggingIn": "LOGGING IN",
-            "success": "SUCCESS",
-            "tryAgain": "Try Again"
+            "loggingIn": "Connexion en cours",
+            "success": "Réussi !",
+            "tryAgain": "Veuillez réessayer"
         },
         "landing": {
             "launch": {
-                "pleaseWait": "Please wait.."
+                "pleaseWait": "Veuillez patienter..."
             }
         }
     }
